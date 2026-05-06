@@ -36,8 +36,16 @@ export default function Skills() {
   return (
     <section id="skills" className="section section-soft">
       <div className="section-shell">
-        <p className="section-kicker">// Technical Expertise</p>
-        <h2 className="section-title">What I bring to the table</h2>
+        <div className="section-header">
+          <div className="section-heading-block">
+            <p className="section-kicker">// Technical Expertise</p>
+            <h2 className="section-title">What I bring to the table</h2>
+          </div>
+          <p className="section-copy section-copy-top">
+            Core strengths across GenAI, System integration,embedded platforms, computer vision, product validation, and
+            full-stack AI engineering.
+          </p>
+        </div>
 
         <div className="skills-grid">
           {skills.map((skill, i) => (
